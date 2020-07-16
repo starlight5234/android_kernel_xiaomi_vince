@@ -1015,7 +1015,7 @@ static void schedtune_boostgroup_init(struct schedtune *st, int idx) {
   boost_slots_init(st);
 #endif // CONFIG_DYNAMIC_STUNE_BOOST
 
-  return 0;
+  return;
 }
 
 #ifdef CONFIG_STUNE_ASSIST

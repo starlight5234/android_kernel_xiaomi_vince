@@ -1490,13 +1490,6 @@ config DYNAMIC_STUNE_BOOST
 	  This option extends the SchedTune framework and provides APIs to
 	  activate and reset SchedTune boosting from anywhere in the kernel.
 
-config STUNE_ASSIST
-	bool "SchedTune configuration helper"
-	depends on SCHED_TUNE
-	depends on ANDROID
-	help
-	  This option enables in-kernel overrides for SchedTune values.
-
 	  If unsure, say N.
 
 config DEFAULT_USE_ENERGY_AWARE
